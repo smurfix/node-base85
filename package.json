@@ -28,9 +28,10 @@
   },
   "homepage": "https://github.com/smurfix/node-base85#readme",
   "dependencies": {
-    "base85-full": "^3.2.0",
+    "base85-full": "^3.2.0"
+  },
+  "devDependencies": {
     "mocha": "^10.8.2",
-    "node-red": "github:smurfix/node-red#test",
     "node-red-node-test-helper": "^0.3.4",
     "should": "^13.2.3"
   }
