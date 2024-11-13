@@ -1,0 +1,31 @@
+{
+  "base85": {
+    "base85": "base85",
+    "label": {
+      "action": "Action"
+    },
+    "charset": {
+        "a85": "Ascii85 alphabet, no <~ … ~>",
+        "ascii85": "Ascii85 alphabet, with <~ … ~>",
+        "btoa": "BtoA alphabet",
+        "z85": "ZMP alphabet, only 4-Byte blocks",
+        "z85pad": "ZMP alphabet, no length restriction"
+    },
+    "convert": {
+      "buffer": "Convert Buffer <-> Base85",
+      "encode": "Encode as Base85",
+      "decode": "Convert Base85 to String"
+    },
+    "log": {
+      "nonbase85encode": "Not a Base85 string - maybe we should encode it..."
+    },
+    "warn": {
+      "cannothandle": "This node only handles strings or buffers.",
+      "noproperty": "No property found to process"
+    },
+    "error": {
+      "invalid": "Invalid Base85 string",
+      "nonbase85": "Not a Base85 string"
+    }
+  }
+}
